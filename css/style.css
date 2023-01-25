@@ -723,4 +723,5 @@ p{
 }
 .nav-collapse a{
   letter-spacing: 1px;
+  padding-right: 5px !important;
 }
