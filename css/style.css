@@ -33,7 +33,7 @@ h2{
   user-select: none;
 }
 .nav-link{
-  border: 0px solid #497174;
+  /* border: 0px solid #497174; */
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
@@ -485,16 +485,16 @@ input.wgh-slider-target {
   border-radius: 50%;
   line-height: 50px;
   text-align: center;
-  border: 1px solid #497174;
+  border: 1px solid white;
   margin-right: 10px;
   font-size: 22px;
-  color: #497174;
+  color: white;
   transition: all .3s;
 }
 #about .about-link li a i:hover{
   color: white;
-  background: #EB6440;
-  border-color: #EB6440;
+  background: #292b39;
+  border-color: #292b39;
   transition: all 0.5s ease-out;
 }
 #about .about-img{
@@ -520,11 +520,11 @@ p{
   border-radius: 5px;
   padding: 10px 50px;
   width: 100%;
-  background-color: #497174 !important;
+  background-color: #5b5f7f !important; 
   color: white !important;
 }
 .btn:hover{
-  background-color: #EB6440 !important;
+  background-color: #292b39 !important;
   color: white ;
   transition: all 0.5s ease-out;
 }
@@ -722,6 +722,11 @@ p{
   width: 130px !important;
 }
 .nav-collapse a{
-  letter-spacing: 1px;
-  padding-right: 5px !important;
+  letter-spacing: 0.3px;
+  word-spacing: -5px;
+  background-color: #292b39 !important;
+  padding: 15px !important;
+}
+header{
+  background: #292b39 !important;
 }
